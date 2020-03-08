@@ -1,4 +1,4 @@
-package com.zpy.wxpay.sdk;
+package com.zpy.wechat.wxpay.sdk;
 
 import org.w3c.dom.Document;
 

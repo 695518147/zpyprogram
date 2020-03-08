@@ -1,4 +1,4 @@
-package com.zpy.wxpay.sdk;
+package com.zpy.wechat.wxpay.sdk;
 
 import com.zpy.wxpay.sdk.WXPayConstants.SignType;
 import org.apache.commons.codec.digest.DigestUtils;

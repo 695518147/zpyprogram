@@ -1,4 +1,4 @@
-package com.zpy.custom;
+package com.zpy.wechat.custom;
 
 
 import com.zpy.wxpay.sdk.IWXPayDomain;

@@ -1,4 +1,4 @@
-package com.zpy.wxpay.sdk;
+package com.zpy.wechat.wxpay.sdk;
 
 /**
  * 域名管理，实现主备域名自动切换

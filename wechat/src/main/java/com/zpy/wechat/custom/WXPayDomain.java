@@ -1,11 +1,11 @@
-package com.zpy.custom;
+package com.zpy.wechat.custom;
 
 import com.zpy.wxpay.sdk.IWXPayDomain;
 import com.zpy.wxpay.sdk.WXPayConfig;
 
 public class WXPayDomain extends IWXPayDomain {
     /**
-     * 上报域名网络状况
+     * 上报域名网络状况（自定义）
      *
      * @param domain            域名。 比如：api.mch.weixin.qq.com
      * @param elapsedTimeMillis 耗时
