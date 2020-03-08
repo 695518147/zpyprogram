@@ -1,4 +1,4 @@
-package org.example.bean;
+package com.zpy.bean;
 
 import lombok.Data;
 

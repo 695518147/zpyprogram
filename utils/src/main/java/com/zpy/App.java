@@ -1,10 +1,8 @@
-package org.example;
+package com.zpy;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import org.example.bean.HumpBean;
-import org.example.bean.UnderlineBean;
-import org.example.util.MapToBeanUtil;
+import com.zpy.bean.HumpBean;
+import com.zpy.bean.UnderlineBean;
+import com.zpy.util.MapToBeanUtil;
 
 import java.util.HashMap;
 import java.util.Map;

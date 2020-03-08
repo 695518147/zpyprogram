@@ -1,4 +1,4 @@
-package org.example.bean;
+package com.zpy.bean;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
