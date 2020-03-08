@@ -1,27 +1,27 @@
 package com.zpy.wechat.custom;
 
 
-import com.zpy.wxpay.sdk.IWXPayDomain;
-import com.zpy.wxpay.sdk.WXPayConfig;
+import com.zpy.wechat.wxpay.sdk.WXPayConfig;
+import com.zpy.wechat.wxpay.sdk.IWXPayDomain;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import static com.zpy.wxpay.sdk.WXPayConstants.DOMAIN_API;
+import static com.zpy.wechat.wxpay.sdk.WXPayConstants.DOMAIN_API;
 
 public class MyConfig extends WXPayConfig {
 
     private byte[] certData;
 
     public MyConfig() throws Exception {
-//        String certPath = "/path/to/apiclient_cert.p12";
-//        File file = new File(certPath);
-//        InputStream certStream = new FileInputStream(file);
-//        this.certData = new byte[(int) file.length()];
-//        certStream.read(this.certData);
-//        certStream.close();
+        String certPath = "/Users/zhangpeiyu/zhangp/idea/zpyprogram/wechat/apiclient_cert.p12";
+        File file = new File(certPath);
+        InputStream certStream = new FileInputStream(file);
+        this.certData = new byte[(int) file.length()];
+        certStream.read(this.certData);
+        certStream.close();
     }
 
     public String getAppID() {

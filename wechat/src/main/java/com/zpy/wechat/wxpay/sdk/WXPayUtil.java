@@ -1,6 +1,6 @@
 package com.zpy.wechat.wxpay.sdk;
 
-import com.zpy.wxpay.sdk.WXPayConstants.SignType;
+import com.zpy.wechat.wxpay.sdk.WXPayConstants.SignType;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -24,7 +24,7 @@ import java.net.UnknownHostException;
 import java.security.KeyStore;
 import java.security.SecureRandom;
 
-import static com.zpy.wxpay.sdk.WXPayConstants.USER_AGENT;
+import static com.zpy.wechat.wxpay.sdk.WXPayConstants.USER_AGENT;
 
 public class WXPayRequest {
     private WXPayConfig config;

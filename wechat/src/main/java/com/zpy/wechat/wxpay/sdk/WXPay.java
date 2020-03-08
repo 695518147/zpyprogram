@@ -1,6 +1,6 @@
 package com.zpy.wechat.wxpay.sdk;
 
-import com.zpy.wxpay.sdk.WXPayConstants.SignType;
+import com.zpy.wechat.wxpay.sdk.WXPayConstants.SignType;
 
 import java.util.HashMap;
 import java.util.Map;

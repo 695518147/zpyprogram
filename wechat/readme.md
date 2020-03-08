@@ -3,7 +3,7 @@
 
 对[微信支付开发者文档](https://pay.weixin.qq.com/wiki/doc/api/index.html)中给出的API进行了封装。
 
-com.zpy.wxpay.sdk.WXPay类下提供了对应的方法：
+com.zpy.wechat.wxpay.sdk.WXPay类下提供了对应的方法：
 
 |方法名 | 说明 |
 |--------|--------|
@@ -34,7 +34,7 @@ com.zpy.wxpay.sdk.WXPay类下提供了对应的方法：
 ## 示例
 配置类MyConfig:
 ```java
-import com.zpy.wxpay.sdk.WXPayConfig;
+import com.zpy.wechat.wxpay.sdk.WXPayConfig;
 import java.io.*;
 
 public class MyConfig implements WXPayConfig{
@@ -80,7 +80,7 @@ public class MyConfig implements WXPayConfig{
 统一下单：
 
 ```java
-import com.zpy.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -116,7 +116,7 @@ public class WXPayExample {
 
 订单查询：
 ```java
-import com.zpy.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -145,7 +145,7 @@ public class WXPayExample {
 退款查询：
 
 ```java
-import com.zpy.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -174,7 +174,7 @@ public class WXPayExample {
 下载对账单：
 
 ```java
-import com.zpy.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -205,8 +205,8 @@ public class WXPayExample {
 
 暂时不支持下载压缩格式的对账单，但可以使用该SDK生成请求用的XML数据：
 ```java
-import com.zpy.wxpay.sdk.WXPay;
-import com.zpy.wxpay.sdk.WXPayUtil;
+import com.zpy.wechat.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPayUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -237,8 +237,8 @@ public class WXPayExample {
 收到支付结果通知时，需要验证签名，可以这样做：
 ```java
 
-import com.zpy.wxpay.sdk.WXPay;
-import com.zpy.wxpay.sdk.WXPayUtil;
+import com.zpy.wechat.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPayUtil;
 
 import java.util.Map;
 
@@ -268,8 +268,8 @@ public class WXPayExample {
 
 HTTPS请求可选HMAC-SHA256算法和MD5算法签名：
 ```
-import com.zpy.wxpay.sdk.WXPay;
-import com.zpy.wxpay.sdk.WXPayConstants;
+import com.zpy.wechat.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPayConstants;
 
 public class WXPayExample {
 
@@ -283,8 +283,8 @@ public class WXPayExample {
 
 若需要使用sandbox环境：
 ```
-import com.zpy.wxpay.sdk.WXPay;
-import com.zpy.wxpay.sdk.WXPayConstants;
+import com.zpy.wechat.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPayConstants;
 
 public class WXPayExample {
 

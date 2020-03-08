@@ -1,7 +1,7 @@
 package com.zpy.wechat.custom;
 
-import com.zpy.wxpay.sdk.IWXPayDomain;
-import com.zpy.wxpay.sdk.WXPayConfig;
+import com.zpy.wechat.wxpay.sdk.IWXPayDomain;
+import com.zpy.wechat.wxpay.sdk.WXPayConfig;
 
 public class WXPayDomain extends IWXPayDomain {
     /**

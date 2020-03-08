@@ -1,6 +1,6 @@
 package com.zpy.wechat.custom;
 
-import com.zpy.wxpay.sdk.WXPay;
+import com.zpy.wechat.wxpay.sdk.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;
